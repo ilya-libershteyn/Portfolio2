@@ -115,17 +115,65 @@ article .about_text, .work, .contact{
 .label p {
     margin-left: 20px;
     padding-left: 20px;
-    /*border-left: 5px solid;*/
+    border-left: 5px solid;
     flex: 3;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.contact {
+    flex: 3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #2a607c;
+    display: flex;
+   
 }
 
-footer h2 {
-    font-size: 20px;
+.contact ul {
+    list-style-type: none;
+    color: #2a607c;
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline;
+}
+
+.contact ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    color: #2a607c;
+    font-size: 32px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+    ul {
+        padding: 0;
+        flex-wrap: nowrap;   
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    ul {
+        padding: 0;
+        flex-wrap: nowrap;   
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
