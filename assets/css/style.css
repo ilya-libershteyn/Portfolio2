@@ -86,38 +86,31 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 article {
     margin-bottom: 20px;
-    padding: 50px;
+    /*padding: 50px;*/
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    /*background-color: #0072bb; */
+    color: #2a607c;
+    display: flex;
+    flex-direction: row;
 }
 
-article img {
-    max-height: 200px;
-}
 
 article h2 {
-    margin-bottom: 20px;
     font-size: 36px;
+    margin-right: 20px;
+    text-align: justify;
+    /*background-color: #ffffff;*/
+    box-sizing: border-box;
+}
+
+article p {
+    /*background-color: #0072bb;*/
+    /*padding: 50px;*/
+    margin-left: 20px;
+    border-left-width: 5px;
 }
 
 footer {
