@@ -95,15 +95,63 @@ article .about_text, .work, .contact{
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
                                       rgba(0, 0, 0, 0.6)), 
-                                      url(../images/digital-marketing-meeting.jpg);
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/WeatherDashboard/main/Assets/weather_dash.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
-    display: flex
+    display: flex;
 }
 
-.main_tile:hover {
-    background-image: url(../images/digital-marketing-meeting.jpg);
+.work .tile1 {
+    border: 0.25em var( #2a607c) solid;
+    padding: 1em 1em 1em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
+                                      rgba(0, 0, 0, 0.6)), 
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/DayPlanner/main/day_planner.jpg);
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.work .tile2 {
+    border: 0.25em var( #2a607c) solid;
+    padding: 1em 1em 1em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
+                                      rgba(0, 0, 0, 0.6)), 
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/CodingQuiz/main/Assets/Screenshot_2.jpg);
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.work .tile3 {
+    border: 0.25em var( #2a607c) solid;
+    padding: 1em 1em 1em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
+                                      rgba(0, 0, 0, 0.6)), 
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/PasswordGenerator/main/pw_generator.jpg);
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.work .tile4 {
+    border: 0.25em var( #2a607c) solid;
+    padding: 1em 1em 1em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
+                                      rgba(0, 0, 0, 0.6)), 
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/CodeRefactor/master/assets/images/digital-marketing-meeting.jpg);
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
 }
 
 .label {
