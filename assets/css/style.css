@@ -95,7 +95,7 @@ article .about_text, .work, .contact{
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
                                       rgba(0, 0, 0, 0.6)), 
-                                      url(https://raw.githubusercontent.com/ilya-libershteyn/WeatherDashboard/main/Assets/weather_dash.jpg);
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/burger/main/Screenshot.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
@@ -107,7 +107,7 @@ article .about_text, .work, .contact{
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
                                       rgba(0, 0, 0, 0.6)), 
-                                      url(https://raw.githubusercontent.com/ilya-libershteyn/DayPlanner/main/day_planner.jpg);
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/EmployeeTracker/main/media/Screenshot_2.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
@@ -120,7 +120,7 @@ article .about_text, .work, .contact{
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
                                       rgba(0, 0, 0, 0.6)), 
-                                      url(https://raw.githubusercontent.com/ilya-libershteyn/CodingQuiz/main/Assets/Screenshot_2.jpg);
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/NoteTaker/main/Screenshot_1.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
@@ -133,7 +133,7 @@ article .about_text, .work, .contact{
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
                                       rgba(0, 0, 0, 0.6)), 
-                                      url(https://raw.githubusercontent.com/ilya-libershteyn/PasswordGenerator/main/pw_generator.jpg);
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/EmployeeSummary/main/media/emp_summary.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
@@ -146,7 +146,7 @@ article .about_text, .work, .contact{
     padding: 1em 1em 1em 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), 
                                       rgba(0, 0, 0, 0.6)), 
-                                      url(https://raw.githubusercontent.com/ilya-libershteyn/CodeRefactor/master/assets/images/digital-marketing-meeting.jpg);
+                                      url(https://raw.githubusercontent.com/ilya-libershteyn/READMEGenerator/main/media/readme_gen.jpg);
     background-size: cover;
     height: 20em;
     width: 100%;
